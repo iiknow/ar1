@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>프로그래밍 스쿨</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+   <header>
+       <div class="container header-container">
+           <div class="header-inner">
+               <h1 class="header-logo"><a href="../main.html"><img src="../img/logo.png" srcset="../img/logo.png 1x, img.logo@2x.png 2x" alt="Codera"></a></h1>
+               <button class="menu-btn" id="mobile-menu"></button>
+           </div>
+       </div>
+   </header>
+   
+   <nav>
+       <div class="container nav-container">
+           <ul class="navbar">
+               <li><a href="../main.html">홈</a></li>
+               <li><a href="../course/course.html">코스 소개</a></li>
+               <li><a href="../qna/qna.html/">자주 하는 질문</a></li>
+               <li><a href="../contact/contact.html">신청</a></li>
+           </ul>
+       </div>
+   </nav>
+   
+ <scction class="main">
+     <div class="container">
+         <main>
+             <h1>신청</h1>
+             <div class="contact">
+                 <p>수업을 희망하는 분은 다음 폼에 필수 항목을 입력해 주세요.</p>
+                 <form action="#" method="POST">
+                    <p><label for="name-feild">이름</label><br>
+                    <input type="text" name="name" id="name-feild"></p>
+                   <p><label for="email-feild">메일 주소</label><br><input type="email" name="email" id="email-feild"></p>
+                   <p>
+                   <label for="course">희망코스</label><br>
+                   <select name="course" id="course">
+                       <option value="selected">코스를 선택해 주세요.</option>
+                       <option value="course1">HTML&amp; css</option>
+                       <option value="course2">WordPress 사이트 구축</option>
+                       <option value="course3">Python으로 데이터 분석</option>
+                       <option value="course4">Ruby 스크래핑</option>
+                   </select>
+                   </p>
+                   <p><label for="comment">의견이나 질문</label><br>
+                   <textarea name="coment" id="comment" cols="50" rows="10"></textarea>
+                   </p>
+                   <p><input type="submit" name="submit" value="입력한 내용 확인" id="submit"></p>
+                 </form>
+             </div>
+         </main>
+     </div>
+ </scction>
+  
+<footer>
+    <div class="container footer-container">
+        <ul class="footer-nav">
+            <li><a href="../course/course.html">코스 소개</a></li>
+            <li><a href="../qna/qna.html">자주 하는 질문</a></li>
+            <li><a href="../contact/contact.html">신청</a></li>
+        </ul>
+        <p class="footer-copryright">
+            &copy; codera
+        </p>
+    </div>
+</footer>
+   
+<script src="/script/script.js"></script>
+</body>
+</html>
